@@ -30,6 +30,12 @@ T ArrList<T>::peek(int k)
 }
 
 template<typename T>
+void ArrList<T>::setValue(int k, T newValue)
+{
+	a[k] = newValue;
+}
+
+template<typename T>
 void ArrList<T>::insertLast(T newItem)
 {
 	if (size == current_maxSize)

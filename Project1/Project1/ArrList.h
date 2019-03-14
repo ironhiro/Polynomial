@@ -13,6 +13,7 @@ private:
 public:
 	ArrList();
 	T peek(int k);
+	void setValue(int k, T newValue);
 	void insertLast(T newItem);
 	void insert(T newItem, int k);
 	T delItem(int k);

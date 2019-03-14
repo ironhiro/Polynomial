@@ -9,5 +9,6 @@ public:
 	Polynomial(int maxDegree,ArrList<float> coef);
 	int getDegree();
 	float getCoef(int k);
+	void add(Polynomial p);
 };
 

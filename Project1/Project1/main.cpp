@@ -24,6 +24,7 @@ int main()
 		}
 		else
 			cout << p.getCoef(i) << "x^" << n - i - 1;
+
 		if (p.getCoef(i + 1) < 0)
 			continue;
 		else
